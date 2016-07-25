@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Плагин tooltip</title>
+	<link rel="stylesheet" href="jquery.tooltip.css">
+</head>
+<body>
+	
+	<a href="http://google.com" title="Google search">Google</a> || 
+	<a href="http://yandex.ru">Yandex</a>
+
+	<div class="block">
+		<p>Lorem <span class="hint">ipsum</span> dolor sit amet, consectetur adipisicing elit. Optio, architecto quaerat quisquam ad illo. Numquam, non, molestias ullam ab tenetur iste necessitatibus nihil rerum accusamus alias accusantium incidunt in magni.</p>
+		<p>Suscipit, labore perferendis modi veritatis tempora architecto voluptatum repellendus iste qui numquam et quibusdam eos quas laboriosam illum deleniti inventore beatae exercitationem molestias ratione obcaecati <span class="hint" title="lorem ipsum">quis</span> sunt sapiente vitae quos?</p>
+		<p>Lorem <span class="hint">ipsum</span> dolor sit amet, consectetur adipisicing elit. Optio, architecto quaerat quisquam ad illo. Numquam, non, molestias ullam ab tenetur iste necessitatibus nihil rerum accusamus alias accusantium incidunt in magni.</p>
+		<p>Suscipit, labore perferendis modi veritatis tempora architecto voluptatum repellendus iste qui numquam et quibusdam eos quas laboriosam illum deleniti inventore beatae exercitationem molestias ratione obcaecati <span class="hint" title="lorem ipsum">quis</span> sunt sapiente vitae quos?</p>
+		<p>Lorem <span class="hint">ipsum</span> dolor sit amet, consectetur adipisicing elit. Optio, architecto quaerat quisquam ad illo. Numquam, non, molestias ullam ab tenetur iste necessitatibus nihil rerum accusamus alias accusantium incidunt in magni.</p>
+		<p>Suscipit, labore perferendis modi veritatis tempora architecto voluptatum repellendus iste qui numquam et quibusdam eos quas laboriosam illum deleniti inventore beatae exercitationem molestias ratione obcaecati <span class="hint" title="lorem ipsum">quis</span> sunt sapiente vitae quos?</p>
+		<p>Lorem <span class="hint">ipsum</span> dolor sit amet, consectetur adipisicing elit. Optio, architecto quaerat quisquam ad illo. Numquam, non, molestias ullam ab tenetur iste necessitatibus nihil rerum accusamus alias accusantium incidunt in magni.</p>
+		<p>Suscipit, labore perferendis modi veritatis tempora architecto voluptatum repellendus iste qui numquam et quibusdam eos quas laboriosam illum deleniti inventore beatae exercitationem molestias ratione obcaecati <span class="hint" title="lorem ipsum">quis</span> sunt sapiente vitae quos?</p>
+		<p>Lorem <span class="hint">ipsum</span> dolor sit amet, consectetur adipisicing elit. Optio, architecto quaerat quisquam ad illo. Numquam, non, molestias ullam ab tenetur iste necessitatibus nihil rerum accusamus alias accusantium incidunt in magni.</p>
+		<p>Suscipit, labore perferendis modi veritatis tempora architecto voluptatum repellendus iste qui numquam et quibusdam eos quas laboriosam illum deleniti inventore beatae exercitationem molestias ratione obcaecati <span class="hint" title="lorem ipsum">quis</span> sunt sapiente vitae quos?</p>
+		<p>Lorem <span class="hint">ipsum</span> dolor sit amet, consectetur adipisicing elit. Optio, architecto quaerat quisquam ad illo. Numquam, non, molestias ullam ab tenetur iste necessitatibus nihil rerum accusamus alias accusantium incidunt in magni.</p>
+		<p>Suscipit, labore perferendis modi veritatis tempora architecto voluptatum repellendus iste qui numquam et quibusdam eos quas laboriosam illum deleniti inventore beatae exercitationem molestias ratione obcaecati <span class="hint" title="lorem ipsum">quis</span> sunt sapiente vitae quos?</p>
+	</div>
+
+	<img class="hint" src="http://placehold.it/300x150" alt="" title="Картинка">
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="jquery.tooltip.js"></script>
+	<script>
+		$(function(){
+			$('a, .hint').tooltip();
+		});
+	</script>
+</body>
+</html>
